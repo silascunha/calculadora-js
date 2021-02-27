@@ -8,32 +8,38 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="calculadora">
-            <input type="text" id="textCalc" class="resultado-normal" value="0" disabled>
-        </div>
+    <div class="centro">
+        <div class="container">
+            <div class="calculadora">
+                
+                <div>
+                    <input type="text" id="textCalc" class="resultado-normal" value="0" disabled>
+                </div>
 
-        <div class="botoes-utilidade">
-            <button  onclick="executarInput('c')">C</button>
-        </div>
+                <div class="botoes-utilidade">
+                    <button  onclick="executarInput('c')">C</button>
+                </div>
 
-        <div class="botoes">
-            <button id="btn-7" onclick="executarInput('7')">7</button>
-            <button id="btn-8" onclick="executarInput('8')">8</button>
-            <button id="btn-9" onclick="executarInput('9')">9</button>
-            <button id="btn-4" onclick="executarInput('4')">4</button>
-            <button id="btn-5" onclick="executarInput('5')">5</button>
-            <button id="btn-6" onclick="executarInput('6')">6</button>
-            <button id="btn-1" onclick="executarInput('1')">1</button>
-            <button id="btn-2" onclick="executarInput('2')">2</button>
-            <button id="btn-3" onclick="executarInput('3')">3</button>
-            <button id="btn-0" onclick="executarInput('0')">0</button>
-            <button id="btn-mais" onclick="executarInput('+')">+</button>
-            <button id="btn-menos" onclick="executarInput('-')">-</button>
-            <button id="btn-div" onclick="executarInput('/')">&divide;</button>
-            <button id="btn-mult" onclick="executarInput('*')">x</button>
-            <button id="btn-virg" onclick="executarInput(',')">,</button>
-            <button id="btn-igual" onclick="executarInput('=')">=</button>
+                <div class="botoes">
+                    <button id="btn-7" onclick="executarInput('7')">7</button>
+                    <button id="btn-8" onclick="executarInput('8')">8</button>
+                    <button id="btn-9" onclick="executarInput('9')">9</button>
+                    <button id="btn-4" onclick="executarInput('4')">4</button>
+                    <button id="btn-5" onclick="executarInput('5')">5</button>
+                    <button id="btn-6" onclick="executarInput('6')">6</button>
+                    <button id="btn-1" onclick="executarInput('1')">1</button>
+                    <button id="btn-2" onclick="executarInput('2')">2</button>
+                    <button id="btn-3" onclick="executarInput('3')">3</button>
+                    <button id="btn-0" onclick="executarInput('0')">0</button>
+                    <button id="btn-mais" onclick="executarInput('+')">+</button>
+                    <button id="btn-menos" onclick="executarInput('-')">-</button>
+                    <button id="btn-div" onclick="executarInput('/')">&divide;</button>
+                    <button id="btn-mult" onclick="executarInput('*')">x</button>
+                    <button id="btn-virg" onclick="executarInput(',')">,</button>
+                    <button id="btn-igual" onclick="executarInput('=')">=</button>
+                </div>
+
+            </div>
         </div>
     </div>
     <script src="js/calc.js"></script>

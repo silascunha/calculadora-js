@@ -6,19 +6,35 @@
 body {
     background-color: #1E1E1E;
     background-image: url(../imagens/fundo.png);
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
-    position: absolute;
     width: fit-content;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    height: fit-content;
+}
+
+.container h3 {
+    font-size: 0.9rem;
+    display: block;
+    margin-top: 12px;
+    color: rgba(255, 255, 255, 0.322);
+}
+
+.calculadora {
+    width: fit-content;
     padding: 15px 12px;
     border-radius: 10px;
     background-color: #171B1F;
     opacity: 0.95;
-    text-align: center;
     box-shadow: 20px;
 }
 
